@@ -55,6 +55,8 @@ body {
 
 /* Лого */
 .logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -62,19 +64,13 @@ body {
     text-decoration: none;
 }
 
-.logo-black {
+.black {
     --accent-color: #000000;
     color: var(--accent-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo, .logo-black {
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
-
-.logo-black:hover,
-.logo-white:hover {
+.logo-studio:hover {
     --accent-color: var(--accent-color);
     color: var(--accent-color);
 }
@@ -198,30 +194,47 @@ body {
     text-transform: uppercase;  
 }
 
-.hero__button {
+.btn {
     display: block;
+    /* width: 200px;
+    height: 50px; */
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 32px;
-
+    padding: 0;
     background-color: var(--accent-color);
     color: var(--white-text-color);
-    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
-
     border: none;
-    border-radius: 4%;
+    border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero__button:hover, .hero__button:focus {
+.btn:hover, .btn:focus {
     background-color: #188ce8;
+}
+
+.hero__button {
+    padding: 10px 32px;
+    font-family: inherit;   
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* background-color: var(--accent-color);
+    color: var(--white-text-color); */
+    /* font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px; */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /* Секції */
@@ -238,7 +251,6 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center; }*/
-
 
 .specialty__list {
     display: flex;
@@ -510,7 +522,7 @@ body {
     cursor: pointer;
 
     border: none;
-    border-radius: 4%;
+    border-radius: 4px;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -638,7 +650,6 @@ body {
 }
 
 /* .footer__items {} */
-
 .footer .logo {
     display: inline-block;
     margin-top: 0;
@@ -646,14 +657,9 @@ body {
     padding: 0;
 }
 
-.logo-white {
-    padding: 0; 
+.white {
     color: var(--white-text-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.logo-white:hover { 
-    color: var(--accent-color);
 }
 
 .footer__address {
@@ -800,28 +806,23 @@ body {
     justify-content: center;
     width: 200px;
     height: 50px;
-
-    padding: 0;
-
+    /* padding: 0;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87px;
     letter-spacing: 0.06em;
-
     color: var(--white-text-color);
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border:none;
     border-radius: 4px;
-
     cursor: pointer; 
-
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-.subscription__button:hover, .subscription__button:focus {
-    background-color: #188ce8; /* ? */
-} 
+/* .subscription__button:hover, .subscription__button:focus {
+    background-color: #188ce8; 
+}  */
 
 .subscription__icon {
     fill: currentColor;
@@ -977,36 +978,30 @@ body {
     color: var(--accent-color);
 }
 
-.form-button {
-    display: block;
+.form__button {
+    /* display: block; */
     width: 200px;
     height: 50px;
-
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
     padding: 0;
-
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-
     border: none;
     border-radius: 4px;
-
     cursor: pointer;
-
     color: var(--white-text-color);
     background-color: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-.form-button:hover,
+/* .form-button:hover,
 .form-button:focus {
     background-color: #188ce8;
-}
+} */
 
 .close-button {
     position: absolute;
