@@ -1,15 +1,17 @@
-@import url(./base/_common.scss);
-@import url(./utils/_vars.scss);
-@import url(./utils/_hidden.scss);
-@import url(./components/_container.scss);
-@import url(./components/_logo.scss);
-@import url(./components/_titles.scss);
-@import url(./components/_btn.scss);
-@import url(./components/_modal.scss);
-@import url(./sections/_header.scss);
-@import url(./sections/_specialty.scss);
-@import url(./sections/_works.scss);
-@import url(./sections/_team.scss);
-@import url(./sections/_clients.scss);
-@import url(./sections/_projects.scss);
-@import url(./sections/_footer.scss);
+@import './utils/_variables.scss';
+@import './utils/_hidden.scss';
+
+@import './components/_container.scss';
+@import './components/_logo.scss';
+@import './components/_section.scss';
+@import './components/_btn.scss';
+@import './components/_modal.scss';
+
+@import './sections/_header.scss';
+@import './sections/_hero.scss';
+@import './sections/_specialty.scss';
+@import './sections/_works.scss';
+@import './sections/_team.scss';
+@import './sections/_clients.scss';
+@import './sections/_projects.scss';
+@import './sections/_footer.scss';
